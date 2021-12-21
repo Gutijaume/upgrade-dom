@@ -27,11 +27,6 @@ console.log(testMeFunctions$$)
 //1.6 1.6 Usa querySelector para mostrar por consola el 3 personaje con el atributo 
 //data-function="testMe".
 
-let thirdItem$$ = document.querySelectorAll('[data-function ="testMe"]')
-        for (let i = 0; thirdItem$$.length; i++){
-            if (i===3){
-                console.log(thirdItem$$[i])
-                break
-            }
-        }
+let thirdItemOnly$$ = document.querySelectorAll('[data-function ="testMe"]')
+console.log(thirdItemOnly$$[3])
 }
